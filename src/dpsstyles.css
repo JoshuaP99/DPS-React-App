@@ -1,0 +1,471 @@
+@font-face {
+    font-family: BelyDisplay;
+    src: url(../src/fonts/BelyDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../src/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../src/fonts/Montserrat-SemiBold.ttf);
+}
+
+.loading{
+    color: #F0532D;
+    width: 20rem;
+    height: 20rem;
+}
+
+h1 {
+    font-family: BelyDisplay;
+    font-size: 3rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #483735;
+    opacity: 1;
+    padding: 2rem;
+}
+
+h2 {
+    font-family: BelyDisplay;
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    align-items: center;
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    color: #483735;
+    opacity: 1;
+}
+
+h3 {
+    font-family: Montserrat-SemiBold;
+    display: flex;
+    padding: 0px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    /* margin-top: -.8rem;
+    margin-bottom: -.8rem; */
+    text-align: left;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #F0532D;
+    opacity: 1; 
+}
+
+h4 {
+    font-family: BelyDisplay;
+    display: flex;
+    padding: 0px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: -.8rem;
+    margin-bottom: -.8rem;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 1.2rem;
+    color: #483735;
+}
+
+#SVGGraphic [id*='Circle_Color']{
+    cursor: not-allowed;
+}
+
+.card-body{
+    font-family: Montserrat-Regular;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    font-size: 1.7rem;
+    letter-spacing: 0px;
+    color: #483735;
+    opacity: 1;
+}
+.card-body p{
+    max-height: 140px;
+    overflow-y: auto;
+}
+.card-body ul{
+    max-height: 140px;
+    overflow-y: auto;
+    margin-left: 1.5rem;
+    color: #F0532D;
+}
+.card-body ul li{
+    padding-left: 0%;
+    transition: .3s;
+}
+.card-body ul li:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #f5f5f5ba;
+    padding-left: 5px;
+    transition: padding-left .3s;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+.role-subtitle{
+    font-family: Montserrat-Regular;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: left;
+    font-size: 1.9rem;
+    letter-spacing: 0px;
+    color: #483735;
+    opacity: 1;
+}
+
+.role-text{
+    font-family: Montserrat-Regular;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #483735;
+    font-size: 1.5em;
+}
+
+.nav-text{
+    font-family: Montserrat-Regular;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+    padding: 1rem;
+}
+
+a{
+    font-family: Montserrat-Regular;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+}
+
+.nav-link{
+    display: flex; 
+    align-items: center;  
+    height: 5rem; 
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+    transition: transform .2s;
+    cursor:pointer;
+}
+
+.nav-link:hover {
+    opacity: 60%;
+    transform: scale(1.05);
+}
+
+.nav-text{
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+    padding-top: 2rem;
+}
+
+.center-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary{
+    font-family: Montserrat-Regular;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #483735 0% 0% no-repeat padding-box;
+    border-radius: 51px;
+    opacity: 1;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-secondary{
+    font-family: Montserrat-Regular;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-color:#FFFFFF;
+    background: #888888 0% 0% no-repeat padding-box;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.modal-title{
+    font-family: Montserrat-Regular;
+    text-align: left;
+    margin-left: auto;
+    font-size: 3.2rem;
+    letter-spacing: 0px;
+    color: #483735;
+    opacity: 1;
+}
+
+.modal-body p{
+    text-align: center;
+}
+
+.btn-primary:hover{
+    background: #291f1e 0% 0% no-repeat padding-box;
+}
+
+.btn-default{
+    padding: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.collapse-btn{
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.textbox{
+    background-color: #fff;
+    margin-right: 3rem;
+    width: 45rem;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    transition: .2s;
+}
+
+.mySVG{
+    margin-right: 4rem; 
+    margin-left: 2rem;
+    display: none;
+}
+
+#close{
+    transition: transform .2s
+}
+
+#close:hover{
+    transform: scale(1.1);
+}
+
+.card-artwork{
+    display: block;
+    align-items: right;
+    margin-left: auto;
+    width: 40%;
+}
+
+.card-profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+.row{
+    margin-left: 1rem;
+}
+
+.pathFill{
+    opacity: 20%;
+}
+
+.click-box{
+    pointer-events: bounding-box;
+}
+
+.transparent-click{
+    pointer-events: none;
+}
+
+.esc-button{
+    height: 2.2rem;
+    width: 2.2rem;
+}
+
+.back-button{
+    margin-left: 2rem;
+    color: #f0532d;
+}
+
+.link-icon{
+    height: 3rem;
+    width: 3rem;   
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.st3 {
+    display: none;
+    fill: #777777;
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition:.3s;
+    transform-box: fill-box;
+    pointer-events: bounding-box;
+}
+
+.st3:hover,
+.st3:focus {
+    -webkit-transform: scale(1.45);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(1.45);
+    transform-origin: 50% 50%;
+    transition:.3s;
+    fill: rgb(248, 58, 0);
+}
+
+.roles-overflow {
+    pointer-events: auto;
+    user-select: none;
+    font-family: Montserrat-SemiBold;
+    display: none;
+}
+
+.roles-overflow.selected,
+.roles-overflow:hover {
+    /* -webkit-transform: scale(1.45);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s; */
+    transform-origin: 46% 83%;    
+    transform: scale(1.5);
+    fill: rgb(248, 58, 0);
+}
+
+.tooltip{
+    font-size: 1.5em;
+}
+
+.overflow-fill {
+    fill: #fff;
+}
+
+.overflow-stroke {
+    fill: #76787a;
+}
+
+[id$="Vision-Roles"] .overflow-text {
+    font-size: 16px;
+}
+
+[id$="Excellence-Roles"] .overflow-text {
+    font-size: 18px;
+}
+
+[id$="Guidance-Roles"] .overflow-text {
+    font-size: 21px;
+}
+
+.textcollapse:hover {
+    transition: .2s;
+    color: gray;
+}
+
+#SVGGraphic path{
+    transition: .3s;
+    cursor: pointer;
+}
+
+#SVGGraphic [id$="_Label"]{
+    transition:.3s;
+    transform-box: fill-box;
+}
+
+#SVGGraphic [id$="_Label"]:hover{
+    fill: gray;
+    transition:.3s;
+    cursor: pointer;
+}
+
+[id$="_path"]{
+    transition:.3s;
+    transform-box: fill-box;
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+}
+
+/* [id$="_path"]:hover{
+    transition:.3s;
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(1.5);
+    transform-origin: 50% 50%;
+
+} */
+
+[id$="_Selected-Role-Type"] {
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+}
+  
+[id$="_Selected-Role-Type"]:hover {
+    opacity: 100%;
+    transition: .3s;
+    display: inline;
+}
+
+.modal-img{
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-bar{
+    display: none;
+}
