@@ -2,7 +2,7 @@ import HelpPositionIcon from '../svg/help-positions-icon.svg';
 import RoleTypesIcon from '../svg/Role Type-Icon.svg';
 import AreaOfFocusIcon from '../svg/Areas of Focus-Icon.svg';
 
-const Modal = () => {
+const HowToModal = () => {
     return (
         <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered modal-lg">
@@ -46,4 +46,4 @@ const Modal = () => {
     )
 }
 
-export default Modal
+export default HowToModal

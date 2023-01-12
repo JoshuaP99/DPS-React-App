@@ -1,29 +1,20 @@
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import AreaOfFocusSVG from "./AreaOfFocusSVG"
-import Escape from "../svg/Esc X.svg"
-import NewTab from "../svg/opens-new-tab-arrow.svg"
+import CardBody from './CardBody';
 
 const AreaOfFocus = () => {
     return (
-        <Container>
+        <Container fluid>
             <Row className='align-items-center'>
                 <Col lg="6">
                     <AreaOfFocusSVG style={{ width: '50vw' }} />            
                 </Col>
-                <Col lg="6">
-                    <Card className='textbox'>
-                        <span className="btn btn-default large"><img src={Escape} className="esc-button"></img></span>
-                        <Card.Body className='text-center'>
-                            <Card.Title><h2>Area of Focus</h2></Card.Title>
-                            <Card.Text className='card-body'>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
-                            <Card.Link className="btn btn-primary" role="button" href="">
-                                Show Employees in this Section <img src={NewTab} />
-                            </Card.Link>
-                        </Card.Body>
-                    </Card>
+                <Col lg="6" style={{ padding: '8rem' }}>
+                    <CardBody 
+                        title = "test"
+                        body ="Yes show me the good good"
+                        link = "#learnMoreBackdrop"
+                    />
                 </Col>
             </Row>
         </Container>
