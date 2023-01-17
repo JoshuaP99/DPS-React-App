@@ -23,9 +23,6 @@
     outline: none;
 }
 
-body{
-    padding-top: 9rem;
-}
 
 .loading{
     color: #F0532D;
@@ -247,6 +244,12 @@ a{
     color: #FFFFFF;
     border-color:#FFFFFF;
     background: #888888 0% 0% no-repeat padding-box;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.btn-danger{
+    border-color:#FFFFFF;
     border-radius: 1rem;
     padding: .5rem;
 }
